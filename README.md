@@ -1,6 +1,5 @@
 # My-C-programs
 Lab Assessment-07
-
 #include<stdio.h>
 
 int main()
@@ -28,7 +27,7 @@ int main()
     {
         if(str[i]==n)
         {
-             str[i]="*";
+             str[i]='*';
         }
     }
     printf("The new string is: %s", str);
@@ -38,3 +37,4 @@ int main()
 
     return 0;
 }
+
